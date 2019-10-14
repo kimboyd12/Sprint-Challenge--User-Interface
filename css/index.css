@@ -51,10 +51,10 @@ img {
 
 body {
     line-height: 1;
-    border: 1px solid lightgrey;
     width: 1000px;
     height:100%;
     margin: 0px 300px;
+    border: 1px solid lightgrey;
 }
 ol, ul {
 	list-style: none;

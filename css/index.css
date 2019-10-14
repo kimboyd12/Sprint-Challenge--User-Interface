@@ -28,8 +28,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    display: inline-block;
+    width: 1000px;
+    margin: 50px;
+}
+
+nav {
+display: inline-block;
+}
+
+header nav a {
+    margin: 0px 50px;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+
+}
+
 body {
-	line-height: 1;
+    line-height: 1;
+    border: 1px solid lightgrey;
+    width: 1000px;
+    margin: 100px 500px;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +167,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.jumbo-image img{
+margin: 45px 45px 5px;
+}
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
 }
